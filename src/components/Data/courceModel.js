@@ -85,7 +85,10 @@ const courseModel = [
       syllabus: [
         // Syllabus for the Introduction to Angular course...
       ],
+
     },
+    
+    
   ];
   
   export default courseModel;
