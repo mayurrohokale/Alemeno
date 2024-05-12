@@ -24,7 +24,7 @@ export default function Header() {
   function handleSearch(e) {
     e.preventDefault();
     const search = e.target.value?.toLowerCase().trim();
-    const filteredCourses = courses.filter((course) =>
+    const filteredCourses = allCourses.filter((course) =>
       course?.name?.toLowerCase().includes(search)
     );
     setCourses(!search?allCourses:filteredCourses);
