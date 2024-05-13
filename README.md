@@ -1,39 +1,39 @@
+# Alemeno - Course Management System Frontend
+
 This is the frontend for a course management system web application built using React.
-### `npm start`
 
-Runs the app in the development mode.
+## Features
 
-Open http://localhost:3000 to view it in your browser.
+- **Course Listing Page:** Displays a list of available courses.
+- **Course Details Page:** Displays details of a selected course.
+- **Student Dashboard:** Displays courses enrolled by the student.
+- **User Authentication:** Allows users to log in and sign up.
+
+## API Endpoints
+
+- **Course Listing Page:** [http://localhost:3000/courses](http://localhost:3000/courses)
+- **Course Details Page:** [http://localhost:3000/course/:id](http://localhost:3000/course/:id)
+- **Student Dashboard:** [http://localhost:3000/dashboard](http://localhost:3000/dashboard)
+- **User Login:** [http://localhost:3000/login](http://localhost:3000/login)
+- **User Signup:** [http://localhost:3000/signup](http://localhost:3000/signup)
+
+## Setup
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/mayurrohokale/Alemeno
 
 
-### Features
+- Install dependencies: npm install
 
-##API Endpoints 
-
-http://localhost:3000/courses : Course Listing Page: Displays a list of available courses.
-
-http://localhost:3000/course/:id :  Course Details Page: Displays details of a selected course.
-
-http://localhost:3000/dashboard : Dashboard: Displays courses enrolled by the student.
-
-http://localhost:3000/login : login user
-
-http://localhost:3000/signup: register new user
-
-##Setup
-
-Clone the repository: git clone https://github.com/mayurrohokale/Alemeno
-
-Install dependencies: npm install
-
-Run the development server: npm start
+- Run the development server: npm start
 
 ##Technologies Used
 
-React
+ - React
 
-React Router
+ - React Router
 
-useContext
+ - useContext
 
 
