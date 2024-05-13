@@ -2,6 +2,8 @@
 
 This is the frontend for a course management system web application built using React.
 
+Demonstrated all Functionalities in Video- https://youtu.be/oLvLCxbnkEA
+
 ## Features
 
 - **Course Listing Page:** Displays a list of available courses.
